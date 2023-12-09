@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="image">
+            <img src="" alt=""  id="bikepic" class="picToShow">
+        </div>
+        <div>
+            <div class="prev">
+                <button onclick="prev()"> < </button>
+            </div>
+            <div class="next">
+                <button onclick="next()"> > </button>
+            </div>
+        </div>
+        <span class="circle-cont">
+            <span class="circle" id="circle1" onclick="dotClick(0)"></span>
+            <span class="circle" id="circle2" onclick="dotClick(1)"></span>
+            <span class="circle" id="circle3" onclick="dotClick(2)"></span>
+            <span class="circle" id="circle4" onclick="dotClick(3)"></span>
+        </span>
+        <div id="altText"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
